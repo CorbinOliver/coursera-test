@@ -1,0 +1,68 @@
+#head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.navbar{
+    background-color: lightgrey;
+}
+
+.navbar-toggler-icon{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#navheader{
+    width: 100%;
+}
+
+#collapseMenu{
+    position: relative;
+    background-color: rgb(179, 179, 179);
+    width: 100%;
+    text-align: center;
+}
+
+.MenuItem{
+    padding: 3px;
+    font-size: 20px;
+
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(112, 111, 111);
+}
+
+.oldspan{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+    height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
+    background-color: rgb(206, 191, 191);
+    border-style: solid;
+    border-color: rgb(27, 27, 46);
+    border-width: 3px;
+    font-size: larger;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-xs-12{
+    background-color: lightblue;
+    overflow: auto;
+}
+
+#heading{
+    font-size: large;
+}
+
+#textwall{
+    height: 1000px;
+}
