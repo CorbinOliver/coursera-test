@@ -1,0 +1,9 @@
+<div items="items" ng-contoller="CategoriesController as catctrl">
+    <ul>
+        <li ng-repeat="item in catctrl.items" 
+            ui-sref="items({short_name: item.short_name})"
+            class="category">
+            {{item.name}}
+        </li>
+    </ul>
+</div>
